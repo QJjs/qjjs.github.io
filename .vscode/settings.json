@@ -1,0 +1,23 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		".vscode": true,
+		"build": true,
+		".gitignore": true,
+		".github": true,
+		"CNAME": true,
+		"package.json": true,
+		"package-lock.json": true,
+		"node_modules": true,
+		".babelrc": true,
+		".eslintrc.json": true,
+		"tsconfig.json": true,
+		"webpack.config.ts": true,
+		"src/index.html": true,
+		"README.md": true
+	}
+}

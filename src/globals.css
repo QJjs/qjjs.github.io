@@ -1,0 +1,57 @@
+:root {
+	--core-background: white;
+	--frosted-background: #eee6;
+	--core-text: black;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--core-background: black;
+		--frosted-background: #3336;
+		--core-text: #ddd;
+	}
+}
+
+html, body, #root {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: var(--core-background);
+}
+
+.leaflet-container {
+	background-color: var(--core-background);
+}
+
+p {
+	margin-block: 1em;
+}
+
+div::-webkit-scrollbar {
+	display: none;
+}
+
+.leaflet-popup-content-wrapper {
+	background: var(--frosted-background);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	color: var(--core-text);
+}
+
+.leaflet-popup-content {
+	overflow-y: scroll;
+	max-height: 300px;
+	margin-block: 0;
+	padding-block: 10px;
+	font-size: 12pt;
+	text-align: justify;
+	font-family: "Helvetica Neue";
+}
+
+.leaflet-popup-content p {
+	margin-block: 4pt;
+}
+
+.leaflet-popup-tip {
+	display: none;
+}

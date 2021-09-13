@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"jsx": "react",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"esModuleInterop": true
+	},
+	"include": [ "src" ]
+}
